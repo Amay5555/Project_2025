@@ -1,5 +1,5 @@
 FROM python:3.12
-WORKDIR /myapp
+WORKDIR /my_app
 COPY . /my_app
 RUN pip install -r /my_app/requirements.txt
 EXPOSE 5000
